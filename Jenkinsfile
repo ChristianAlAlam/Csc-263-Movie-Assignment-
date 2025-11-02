@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/ChristianAlAlam/Csc-263-Movie-Assignment-'
+        git branch: 'main', url: 'https://github.com/ChristianAlAlam/Csc-263-Movie-Assignment-.git'
       }
     }
 
